@@ -1,0 +1,26 @@
+# Bandit Level 9
+
+## Objective
+
+To find the password for the next level in `data.txt`. The password is one of the human-readable strings in the file.
+
+## Commands Used
+
+```bash
+ls
+strings data.txt | grep "="
+```
+
+## Steps
+
+1. Used `ls` to view the files.
+2. Found the `data.txt` file.
+3. Used `strings` to extract readable text from the file.
+4. Used `grep "="` to filter the strings containing `=`.
+5. Found the password for the next level.
+
+## What I Learned
+
+* How to use `strings` to find readable text in binary data.
+* How to combine commands using a pipe `|`.
+* How `grep` can filter specific text from command output.
