@@ -1,0 +1,27 @@
+# Bandit Level 11
+
+## Objective
+
+To find the password for the next level in `data.txt`. The text is encrypted using a ROT13 transformation.
+
+## Commands Used
+
+```bash
+ls
+cat data.txt
+echo "encrypted_text" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+```
+
+## Steps
+
+1. Used `ls` to find `data.txt`.
+2. Used `cat` to view the file contents.
+3. Identified that the text was encoded using ROT13.
+4. Used the `tr` command to decode the text.
+5. Obtained the password for the next level.
+
+## What I Learned
+
+* What ROT13 encoding is.
+* How to use the `tr` command for character substitution.
+* How to identify and decode simple text-based encryption.
