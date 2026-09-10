@@ -1,0 +1,26 @@
+# Bandit Level 14
+
+## Objective
+
+To find the password for the next level by sending the current level's password to a specific port on localhost.
+
+## Commands Used
+
+```bash id="z6x8k2"
+cat /etc/bandit_pass/bandit14
+nc localhost 30000
+```
+
+## Steps
+
+1. Used `cat` to get the current level's password.
+2. Used `nc` (Netcat) to connect to port `30000` on localhost.
+3. Sent the password through the connection.
+4. Received the password for the next level.
+
+## What I Learned
+
+* How to read password files in Linux.
+* What Netcat (`nc`) is used for.
+* How to connect to a specific port on localhost.
+* How data can be sent through a network connection.
