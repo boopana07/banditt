@@ -1,0 +1,27 @@
+# Bandit Level 6
+
+## Objective
+
+To find the password for the next level from a file on the server with specific properties.
+
+## Commands Used
+
+```bash
+find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
+cat /var/lib/dpkg/info/bandit7.password
+```
+
+## Steps
+
+1. Used `find` to search the entire server for a file matching the given properties.
+2. Used `2>/dev/null` to hide permission-denied errors.
+3. Found the file containing the password.
+4. Used `cat` to read the file.
+5. Obtained the password for the next level.
+
+## What I Learned
+
+* How to search the entire Linux system using `find`.
+* How to search files based on owner, group, and size.
+* How `2>/dev/null` can hide unwanted error messages.
+* Improved my Linux file-searching skills.
