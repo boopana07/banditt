@@ -1,0 +1,26 @@
+# Bandit Level 13
+
+## Objective
+
+To access the next Bandit level using an SSH private key instead of a password.
+
+## Commands Used
+
+```bash
+ls
+ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+```
+
+## Steps
+
+1. Used `ls` to find the `sshkey.private` file.
+2. Used the private key to connect to the Bandit Level 14 account.
+3. Connected to the server using SSH without entering the account password.
+4. Successfully accessed the next level.
+
+## What I Learned
+
+* What an SSH private key is.
+* How to use a private key for SSH authentication.
+* How the `-i` option specifies an identity file.
+* The difference between password-based and key-based SSH authentication.
