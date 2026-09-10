@@ -1,0 +1,25 @@
+# Bandit Level 10
+
+## Objective
+
+To find the password for the next level in `data.txt`. The file contains the password encoded in Base64.
+
+## Commands Used
+
+```bash id="w7j4f2"
+ls
+base64 -d data.txt
+```
+
+## Steps
+
+1. Used `ls` to view the files.
+2. Found the `data.txt` file.
+3. Used `base64 -d` to decode the contents of the file.
+4. The decoded output revealed the password for the next level.
+
+## What I Learned
+
+* What Base64 encoding is.
+* How to decode Base64 using the `base64` command.
+* How encoded data can be converted back into readable text.
