@@ -1,0 +1,38 @@
+# Bandit Level 1
+
+## Objective
+
+The objective of Bandit Level 1 is to find and read the password stored in a file named `-`.
+
+## Commands Used
+
+### 1. ls
+
+Used to list the files in the current directory.
+
+```bash
+ls
+```
+
+### 2. cat
+
+Used to read the contents of the file named `-`.
+
+```bash
+cat ./-
+```
+
+## Steps
+
+1. Log in to the Bandit Level 1 server.
+2. Use `ls` to see the files.
+3. The file name is `-`.
+4. Use `cat ./-` to read the file.
+5. The password for the next level is displayed.
+
+## What I Learned
+
+* How to list files using `ls`.
+* How to read a file using `cat`.
+* How to read a file whose name starts with `-`.
+* Using `./` to specify a file in the current directory.
