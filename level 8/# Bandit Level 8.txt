@@ -1,0 +1,26 @@
+# Bandit Level 8
+
+## Objective
+
+To find the password for the next level in `data.txt`. The password appears only once in the file.
+
+## Commands Used
+
+```bash
+ls
+sort data.txt | uniq -u
+```
+
+## Steps
+
+1. Used `ls` to view the files.
+2. Found the `data.txt` file.
+3. Used `sort` to arrange the lines.
+4. Used `uniq -u` to find the line that appears only once.
+5. Obtained the password for the next level.
+
+## What I Learned
+
+* How to use `sort` to arrange file contents.
+* How `uniq -u` finds unique lines.
+* How combining Linux commands can help solve problems efficiently.
