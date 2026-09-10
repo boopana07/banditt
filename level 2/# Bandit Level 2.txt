@@ -1,0 +1,26 @@
+# Bandit Level 2
+
+## Objective
+
+To find the password for the next level by reading a file with spaces in its name.
+
+## Commands Used
+
+```bash
+ls
+cat "spaces in this filename"
+```
+
+## Steps
+
+1. Logged into the Bandit Level 2 account.
+2. Used `ls` to view the files.
+3. Found a file named `spaces in this filename`.
+4. Used `cat` with the filename in quotes to read the file.
+5. Obtained the password for the next level.
+
+## What I Learned
+
+* How to work with filenames containing spaces.
+* How to use quotes with filenames in Linux.
+* Improved my understanding of basic file-handling commands.
