@@ -1,0 +1,29 @@
+# Bandit Level 4
+
+## Objective
+
+To find the password for the next level among several files, where only one file contains human-readable text.
+
+## Commands Used
+
+```bash
+ls
+cd inhere
+file ./*
+cat ./-file07
+```
+
+## Steps
+
+1. Entered the `inhere` directory.
+2. Used `ls` to view the files.
+3. Used `file ./*` to identify the type of each file.
+4. Found the file containing human-readable text.
+5. Used `cat` to read the file and obtain the password.
+
+## What I Learned
+
+* How to identify file types using the `file` command.
+* How to work with multiple files using `./*`.
+* How to find useful information among several files.
+* Improved my Linux command-line skills.
