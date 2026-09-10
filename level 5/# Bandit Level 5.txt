@@ -1,0 +1,28 @@
+# Bandit Level 5
+
+## Objective
+
+To find the password hidden among files in the `inhere` directory based on specific file properties.
+
+## Commands Used
+
+```bash
+ls
+cd inhere
+find . -type f -size 1033c ! -executable
+cat ./maybehere07/.file2
+```
+
+## Steps
+
+1. Entered the `inhere` directory.
+2. Used `find` to search for a file with the required properties.
+3. Found the file matching the conditions.
+4. Used `cat` to read the file.
+5. Obtained the password for the next level.
+
+## What I Learned
+
+* How to search for files using `find`.
+* How to filter files based on size and permissions.
+* How Linux file properties can help locate specific files.
