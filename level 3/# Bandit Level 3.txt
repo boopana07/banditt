@@ -1,0 +1,29 @@
+# Bandit Level 3
+
+## Objective
+
+To find the password for the next level inside the `inhere` directory.
+
+## Commands Used
+
+```bash
+ls
+cd inhere
+ls -la
+cat .hidden
+```
+
+## Steps
+
+1. Used `ls` to view the files and directories.
+2. Found the `inhere` directory and entered it using `cd`.
+3. Used `ls -la` to display hidden files.
+4. Found the `.hidden` file.
+5. Used `cat .hidden` to read the password.
+
+## What I Learned
+
+* How to navigate between directories using `cd`.
+* How to view hidden files using `ls -la`.
+* How hidden files are identified by a `.` at the beginning of their name.
+* How to read hidden files using `cat`.
