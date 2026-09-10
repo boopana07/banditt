@@ -1,0 +1,27 @@
+# Bandit Level 15
+
+## Objective
+
+To send the current level's password to a service on localhost using an encrypted SSL/TLS connection.
+
+## Commands Used
+
+```bash
+openssl s_client -connect localhost:30001
+```
+
+Then entered the current password when prompted.
+
+## Steps
+
+1. Connected to port `30001` on localhost using `openssl`.
+2. Established a secure SSL/TLS connection.
+3. Entered the current level's password.
+4. Received the password for the next level.
+
+## What I Learned
+
+* Basic use of `openssl` for secure connections.
+* What SSL/TLS connections are.
+* How encrypted network communication works.
+* How to interact with a service running on a specific port.
