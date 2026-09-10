@@ -1,0 +1,46 @@
+# Bandit Level 0
+
+## Objective
+
+The objective of Bandit Level 0 is to connect to the Bandit server using SSH.
+
+## Commands Used
+
+### 1. SSH
+
+Used to connect to the Bandit server.
+
+```bash
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+```
+
+### 2. ls
+
+Used to list the files in the current directory.
+
+```bash
+ls
+```
+
+### 3. cat
+
+Used to read the contents of the `readme` file.
+
+```bash
+cat readme
+```
+
+## Steps
+
+1. Open the terminal.
+2. Connect to the Bandit server using SSH.
+3. Enter the password `bandit0`.
+4. Use `ls` to see the files.
+5. Use `cat readme` to read the file.
+
+## What I Learned
+
+* How to connect to a remote server using SSH.
+* How to list files using `ls`.
+* How to read a file using `cat`.
+* Basic Linux commands.
