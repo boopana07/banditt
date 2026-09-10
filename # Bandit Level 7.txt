@@ -1,0 +1,26 @@
+# Bandit Level 7
+
+## Objective
+
+To find the password for the next level in a file called `data.txt` next to the word `millionth`.
+
+## Commands Used
+
+```bash
+ls
+grep millionth data.txt
+```
+
+## Steps
+
+1. Used `ls` to view the files.
+2. Found the `data.txt` file.
+3. Used `grep` to search for the word `millionth`.
+4. Found the password next to the word.
+5. Used the password to access the next level.
+
+## What I Learned
+
+* How to search for specific text using `grep`.
+* How to search large files quickly.
+* How to extract useful information from text files.
