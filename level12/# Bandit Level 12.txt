@@ -1,0 +1,35 @@
+# Bandit Level 12
+
+## Objective
+
+To find the password hidden inside `data.txt`. The file has been repeatedly compressed and needs to be extracted step by step.
+
+## Commands Used
+
+```bash
+mkdir /tmp/bandit12
+cp data.txt /tmp/bandit12
+cd /tmp/bandit12
+xxd -r data.txt > data
+file data
+mv data data.gz
+gunzip data.gz
+```
+
+Other commands such as `bunzip2` and `tar -xf` were used depending on the file type found during extraction.
+
+## Steps
+
+1. Created a temporary working directory.
+2. Copied `data.txt` into the directory.
+3. Used `xxd -r` to convert the hexadecimal dump back into binary data.
+4. Used `file` to identify the compression format.
+5. Renamed and extracted the file according to its type.
+6. Repeated the process until the password was revealed.
+
+## What I Learned
+
+* How to work with compressed files in Linux.
+* How to identify file types using `file`.
+* How to use commands like `gunzip`, `bunzip2`, and `tar`.
+* How to handle files step by step when multiple layers of compression are involved.
